@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 0 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffffff;
+}
+
+.caixa {
+    width: 1140px;
+    margin: 0 auto;
+    background: #ffffff;
+    box-shadow: 0px 70px 50px 0px
+    black;
+    float: normal;
+}
+
+.logomarca {
+    margin: 25px 200px 0;
+}
+
+.itens-lista-nav {
+    position: relative;
+    display: inline-block;
+    margin: 50px 55px 0;
+    text-decoration: none;
+}
+
+.itens-lista-nav a {
+    text-decoration: none;
+    color: #765EE8;
+    font-size: 0.8em;
+    padding: 5px 8px;
+    border-radius: 25px;
+    background-color: #765EE8;
+    color: white;
+    box-shadow: 2px 2px 2px #765EE8;
+}
+
+.itens-lista-nav a:hover {
+    background-color: #2AAAB1;
+    color: white;
+    cursor: pointer;
+}
+
+#queroseragr {
+    padding: 13px 18px;
+    margin: 0 0 -20px 0;
+    border-radius: 20px;
+    background-color: #765EE8;
+    color: white;
+    font: bold;
+    box-shadow: 2px 2px 2px #765EE8;
+}
+
+#queroseragr:hover {
+    background-color: #2AAAB1;
+    color: white;
+    cursor: pointer;
+}
+
+.texto-titulo {
+    display: inline-block;
+    text-align: center;
+    margin: 45px 110px 35px;
+    padding: 10px 10px;
+    width: 450px
+}
+
+.texto-titulo strong {
+    color: #765ee8;
+}
+
+.tituloprincipal, .paragrafoprincipal {
+    margin: 15px 0;
+}
+
+.quadrado {
+    display: normal;
+    position: relative;
+    width: 476px;
+    height: 480px;
+    background-image: linear-gradient(#765EE8, #bdb4e9);
+    left: calc(58% + 3px);
+    top: -500px;
+    margin-bottom: -500px;
+    border-radius: 0% 0% 0% 25%;
+}
+
+.graficos {
+    position: relative;
+    display: inline-block;
+    left: 100px;
+    top: 10px;
+    width: 350px;
+}
+
+.img-grupo {
+    position: relative;
+    right: -60px;
+    top: -20px;
+}
+
+
+
+
+
+
+main {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 25px 0;
+    background: #ffffff;
+    box-shadow: 0px 60px 40px 0px
+    black;
+}
+
+.sobre-nos {
+    margin: 60px 0 0;
+}
+
+.titulo-sobre, .subtitulo-sobre {
+    text-align: center;
+}
+
+.quadrado-sobre {
+    position: relative;
+    display: inline-block;
+    margin: 80px 3.35% 0;
+    background: chocolate;
+    width: 300px;
+    height: 250px;
+    padding: 25px 10px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-image: linear-gradient(#765EE8, #9c8ddb);
+    color: #ffffff;
+    box-shadow: 0px 5px 10px 3px #5d5d5ea1;
+    vertical-align: top;
+}
+
+.quadrado-sobre h3 {
+    text-align: center;
+    margin: 15px 0 0;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+.quadrado-sobre p {
+    text-align: justify;
+    margin: 30px 0 0;
+    padding: 10px 10px 20px;
+    text-indent: 20px;
+}
+
+.sobre-agr h2 {
+    margin: 150px 0 70px;
+    text-align: center;
+    font: bold;
+    font-size: 1.7em;
+}
+
+.sobre-agr span {
+    color: #765EE8;
+}
+
+.sobre-agr p {
+    text-align: justify;
+    padding: 0 150px;
+    font-size: 1.15em;
+    text-indent: 25px;
+    margin: 25px 0;
+}
+
+.sobre-agr img {
+    float: left;
+    padding: 0 50px 0;
+}
+
+.nossa-localizacao h2 {
+    clear: left;
+    text-align: center;
+    margin: 250px 0 65px;
+}
+
+
+.logo-icp, .logo-iti, .logo-serpro{
+    width: 250px;
+    vertical-align: top;
+    padding: 50px 0 20px;
+    margin: 0 5.3%;
+}
+
+
+
+
+footer {
+    background: url('images/textura-footer.jpg');
+    color: #765EE8;
+    text-shadow: 2px 2px 2px #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p::before {
+    content: "©";
+}
+
